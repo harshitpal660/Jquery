@@ -1,0 +1,30 @@
+#basket{
+    height: fit-content;
+    width: 100%;
+    background-color: rgb(253, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    position: absolute;
+    overflow: scroll;
+    max-height: 60vh;
+    bottom: 10vh;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.balls{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /* background-color: red; */
+    margin: 1px;
+}
+
+button{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+}
